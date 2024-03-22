@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{94D5E8CE-0711-460E-A21F-08EDBF9A208C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Try_01__Agro_Industrial_enterprise_management_system</RootNamespace>
+    <AssemblyName>Try 01, Agro-Industrial enterprise management system</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InventoryManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InventoryManagement.Designer.cs">
+      <DependentUpon>InventoryManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesandMarketing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesandMarketing.Designer.cs">
+      <DependentUpon>SalesandMarketing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CropManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CropManagement.Designer.cs">
+      <DependentUpon>CropManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SupplyChainManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SupplyChainManagement.Designer.cs">
+      <DependentUpon>SupplyChainManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FinancialAnalysis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinancialAnalysis.Designer.cs">
+      <DependentUpon>FinancialAnalysis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeManagement.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeManagement.Designer.cs">
+      <DependentUpon>EmployeeManagement.cs</DependentUpon>
+    </Compile>
+    <Compile Include="QualityControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QualityControl.Designer.cs">
+      <DependentUpon>QualityControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EquipmentMaintenance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EquipmentMaintenance.Designer.cs">
+      <DependentUpon>EquipmentMaintenance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InventoryManagement.resx">
+      <DependentUpon>InventoryManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesandMarketing.resx">
+      <DependentUpon>SalesandMarketing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CropManagement.resx">
+      <DependentUpon>CropManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SupplyChainManagement.resx">
+      <DependentUpon>SupplyChainManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FinancialAnalysis.resx">
+      <DependentUpon>FinancialAnalysis.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeManagement.resx">
+      <DependentUpon>EmployeeManagement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="QualityControl.resx">
+      <DependentUpon>QualityControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EquipmentMaintenance.resx">
+      <DependentUpon>EquipmentMaintenance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo_2023-11-04_07-18-11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pt2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pt3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pt5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dod8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pt6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptt %2813%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptt %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptt %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptt %2811%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptt %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptt %289%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptt %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptt %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptt %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptt %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptt %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptt %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ptt %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\caesar agro.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

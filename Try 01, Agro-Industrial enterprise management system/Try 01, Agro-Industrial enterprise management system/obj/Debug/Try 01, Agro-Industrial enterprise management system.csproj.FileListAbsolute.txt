@@ -1,0 +1,18 @@
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\bin\Debug\Try 01, Agro-Industrial enterprise management system.exe.config
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\bin\Debug\Try 01, Agro-Industrial enterprise management system.exe
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\bin\Debug\Try 01, Agro-Industrial enterprise management system.pdb
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\obj\Debug\Try 01, Agro-Industrial enterprise management system.csproj.AssemblyReference.cache
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\obj\Debug\Try_01__Agro_Industrial_enterprise_management_system.Form1.resources
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\obj\Debug\Try_01__Agro_Industrial_enterprise_management_system.Properties.Resources.resources
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\obj\Debug\Try 01, Agro-Industrial enterprise management system.csproj.GenerateResource.cache
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\obj\Debug\Try 01, Agro-Industrial enterprise management system.csproj.CoreCompileInputs.cache
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\obj\Debug\Try 01, Agro-Industrial enterprise management system.exe
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\obj\Debug\Try 01, Agro-Industrial enterprise management system.pdb
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\obj\Debug\Try_01__Agro_Industrial_enterprise_management_system.Form2.resources
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\obj\Debug\Try_01__Agro_Industrial_enterprise_management_system.Form3.resources
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\obj\Debug\Try_01__Agro_Industrial_enterprise_management_system.Form4.resources
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\obj\Debug\Try_01__Agro_Industrial_enterprise_management_system.Form5.resources
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\obj\Debug\Try_01__Agro_Industrial_enterprise_management_system.Form6.resources
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\obj\Debug\Try_01__Agro_Industrial_enterprise_management_system.Form7.resources
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\obj\Debug\Try_01__Agro_Industrial_enterprise_management_system.Form8.resources
+D:\Try 01, Agro-Industrial enterprise management system\Try 01, Agro-Industrial enterprise management system\obj\Debug\Try_01__Agro_Industrial_enterprise_management_system.Form9.resources
